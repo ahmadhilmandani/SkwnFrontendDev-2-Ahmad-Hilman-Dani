@@ -1,2 +1,1 @@
-# SkwnFrontendDev-2-Ahmad-Hilman-Dani
-Repository for sekawan internship technical test [2/2]
+# Part 2 of technical test in Sekawan Media
