@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SkwnFrontendDev-2-Ahmad-Hilman-Dani</title>
     <link href="/dist/output.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,11 +17,9 @@
             font-family: 'Inter', 'sans-serif';
         }
 
-        
-
         .material-symbols-outlined {
             font-variation-settings:
-                'FILL' 0,
+                'FILL' 1,
                 'wght' 400,
                 'GRAD' 0,
                 'opsz' 48
@@ -30,8 +28,178 @@
 </head>
 
 <body>
-    <h1 class="font-extrabold text-6xl">test</h1>
-    <h1 class="font-extrabold text-6xl">test</h1>
+    <div class="max-w-[480px] min-h-screen mx-auto p-6 bg-neutral-50 relative">
+        <header class="flex justify-between items-center">
+            <div>
+                <p class="text-neutral-400 text-sm">Hello,</p>
+                <h1 class="text-2xl font-bold">Aurellia!</h1>
+            </div>
+            <div class="w-10 h-10 rounded-full overflow-hidden">
+                <img src="/asset/avatar.svg" alt="" class="w-full">
+            </div>
+        </header>
+
+        <section class="mt-10">
+            <div class="flex justify-between items-center">
+                <h2 class="text-neutral-400 font-medium text-sm">Your Visa</h2>
+                <a href="" class="text-sm text-neutral-400">see all</a>
+            </div>
+            <div class="overflow-auto flex gap-3 mt-2">
+                <div class="flex-shrink-0 w-[285px] h-[180px] overflow-hidden rounded-lg bg-cover bg-no-repeat bg-center object-fill p-5"
+                    style="background-image: url('/asset/bg-1.svg');">
+                    <div class="flex flex-col justify-between w-full h-full">
+                        <div class="flex justify-between items-center">
+                            <img src="/asset/chip-1.svg" alt="" class="w-[28px]">
+                            <p class="font-medium text-sm text-white">Premium</p>
+                        </div>
+                        <pre class="mt-8 text-white">4000 5127 2123 2018</pre>
+                        <div class="flex justify-between ">
+                            <p class="font-medium text-white">Aurellia</p>
+                            <p class="text-white italic font-bold">VISA</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex-shrink-0  w-[285px] h-[180px] overflow-hidden rounded-lg bg-cover bg-no-repeat bg-center object-fill bg-white p-5">
+                    <div class="flex flex-col justify-between w-full h-full">
+                        <div class="flex justify-between items-center">
+                            <img src="/asset/chip-2.svg" alt="" class="w-[28px]">
+                            <p class="font-medium text-sm text-neutral-400">Premium</p>
+                        </div>
+                        <pre class="mt-8 text-neutral-400">4000 5127 2123 2018</pre>
+                        <div class="flex justify-between ">
+                            <p class="font-medium text-neutral-400">Aurellia</p>
+                            <p class="text-neutral-400 italic font-bold">VISA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-10">
+            <div class="flex justify-between items-center">
+                <h2 class="text-neutral-400 font-medium text-sm">Services</h2>
+                <a href="" class="text-neutral-400 text-sm">see all</a>
+            </div>
+            <div class="w-full flex justify-between mt-3 gap-3 flex-wrap whitespace-normal">
+                <div>
+                    <div
+                        class="w-[48px] h-[48px] flex justify-center items-center p-3 bg-very-light-blue-color rounded-full">
+                        <i class="material-symbols-outlined text-blue-color">credit_card</i>
+                    </div>
+                    <p class="text-sm text-center text-neutral-600 mt-2">Card</p>
+                </div>
+                <div>
+                    <div
+                        class="w-[48px] h-[48px] flex justify-center items-center p-3 bg-very-light-blue-color rounded-full">
+                        <i class="material-symbols-outlined text-blue-color">attach_money</i>
+                    </div>
+                    <p class="text-sm text-center text-neutral-600 mt-2">Finance</p>
+                </div>
+                <div>
+                    <div
+                        class="w-[48px] h-[48px] flex justify-center items-center p-3 bg-very-light-blue-color rounded-full">
+                        <i class="material-symbols-outlined text-blue-color">monitoring</i>
+                    </div>
+                    <p class="text-sm text-center text-neutral-600 mt-2">Top up</p>
+                </div>
+                <div>
+                    <div
+                        class="w-[48px] h-[48px] flex justify-center items-center p-3 bg-very-light-blue-color rounded-full">
+                        <i class="material-symbols-outlined text-blue-color">question_mark</i>
+                    </div>
+                    <p class="text-sm text-center text-neutral-600 mt-2">Help</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-10 mb-20">
+            <div class="flex justify-between items-center">
+                <h2 class="text-neutral-400 font-medium text-sm">Activity</h2>
+                <a href="" class="text-neutral-400 text-sm">see all</a>
+            </div>
+            <div
+                class="shadow-[0px_0px_4px_0px_rgba(0,0,0,0.1)] bg-white rounded-md h-[100px] mt-3 p-4 flex flex-wrap justify-center gap-8">
+                <div
+                    class="bg-very-light-blue-color text-blue-color w-[32px] h-[32px] flex justify-center items-center p-6 rounded-full">
+                    <i class="material-symbols-outlined">trending_up</i>
+                </div>
+                <div class="flex flex-wrap text-xs justify-between items-stretch">
+                    <div class="flex flex-col justify-between">
+                        <p class="text-neutral-600">Deposit</p>
+                        <p class="text-blue-color">Rp.15.510.000,-</p>
+                        <p class="text-neutral-400">
+                            <i class="material-symbols-outlined scale-75 align-middle text-neutral-500">location_on</i>
+                            Bank Mandiri ATM
+                        </p>
+                    </div>
+                    <div class="flex flex-col justify-between">
+                        <p class="text-neutral-400 text-right">11 Maret 2022</p>
+                        <p class="text-neutral-400 text-right">11.21 AM</p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="shadow-[0px_0px_4px_0px_rgba(0,0,0,0.1)] bg-white rounded-md h-[100px] mt-3 p-4 flex flex-wrap justify-center gap-8">
+                <div
+                    class="bg-light-red-color text-red-color w-[32px] h-[32px] flex justify-center items-center p-6 rounded-full">
+                    <i class="material-symbols-outlined">trending_down</i>
+                </div>
+                <div class="flex flex-wrap text-xs justify-between items-stretch">
+                    <div class="flex flex-col justify-between">
+                        <p class="text-neutral-600">Deposit</p>
+                        <p class="text-red-color">Rp.15.510.000,-</p>
+                        <p class="text-neutral-400">
+                            <i class="material-symbols-outlined scale-75 align-middle text-neutral-500">location_on</i>
+                            Bank Mandiri ATM
+                        </p>
+                    </div>
+                    <div class="flex flex-col justify-between">
+                        <p class="text-neutral-400 text-right">11 Maret 2022</p>
+                        <p class="text-neutral-400 text-right">11.21 AM</p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="shadow-[0px_0px_4px_0px_rgba(0,0,0,0.1)] bg-white rounded-md h-[100px] mt-3 p-4 flex flex-wrap justify-center gap-8">
+                <div
+                    class="bg-very-light-blue-color text-blue-color w-[32px] h-[32px] flex justify-center items-center p-6 rounded-full">
+                    <i class="material-symbols-outlined">trending_up</i>
+                </div>
+                <div class="flex flex-wrap text-xs justify-between items-stretch">
+                    <div class="flex flex-col justify-between">
+                        <p class="text-neutral-600">Deposit</p>
+                        <p class="text-blue-color">Rp.15.510.000,-</p>
+                        <p class="text-neutral-400">
+                            <i class="material-symbols-outlined scale-75 align-middle text-neutral-500">location_on</i>
+                            Bank Mandiri ATM
+                        </p>
+                    </div>
+                    <div class="flex flex-col justify-between">
+                        <p class="text-neutral-400 text-right">11 Maret 2022</p>
+                        <p class="text-neutral-400 text-right">11.21 AM</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <nav
+            class="bg-white fixed bottom-0 left-0 right-0 flex justify-between py-2 px-8 shadow-[0px_-2px_6px_0px_rgba(0,0,0,0.05)]">
+            <div>
+                <i class="material-symbols-outlined text-blue-color">home</i>
+                <p class="w-[4px] h-[4px] rounded-full bg-blue-color mx-auto"></p>
+            </div>
+            <div>
+                <i class="material-symbols-outlined text-neutral-400">history</i>
+            </div>
+            <div>
+                <i class="material-symbols-outlined text-neutral-400">chat</i>
+            </div>
+            <div>
+                <i class="material-symbols-outlined text-neutral-400">person</i>
+            </div>
+        </nav>
+    </div>
 </body>
 
 </html>
